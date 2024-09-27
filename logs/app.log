@@ -1,0 +1,33 @@
+2024-09-27 09:16:14 [main] INFO  com.example.TaskTypeService - Added task type: Code
+2024-09-27 09:16:23 [main] INFO  com.example.TaskTypeService - Added task type: Test
+2024-09-27 09:16:31 [main] INFO  com.example.TaskTypeService - Added task type: Design
+2024-09-27 09:16:34 [main] INFO  com.example.TaskTypeService - Added task type: Review
+2024-09-27 09:16:52 [main] INFO  com.example.TaskTypeService - Deleted task type with ID: 4
+2024-09-27 09:17:05 [main] INFO  com.example.TaskTypeService - Added task type: Review
+2024-09-27 09:17:36 [main] ERROR com.example.TaskService - Error adding task
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Incorrect datetime value: '00:00:00' for column `t2311e`.`tasks`.`date` at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.example.TaskService.addTask(TaskService.java:47) [classes/:?]
+	at com.example.Main.main(Main.java:87) [classes/:?]
+2024-09-27 09:22:32 [main] ERROR com.example.TaskService - Error adding task
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Incorrect datetime value: '00:00:00' for column `t2311e`.`tasks`.`date` at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.example.TaskService.addTask(TaskService.java:47) [classes/:?]
+	at com.example.Main.main(Main.java:93) [classes/:?]
+2024-09-27 10:16:36 [main] INFO  com.example.TaskService - Added new task: Dev Program
+2024-09-27 10:16:41 [main] INFO  com.example.TaskService - All tasks fetched successfully
+2024-09-27 10:18:38 [main] INFO  com.example.TaskService - All tasks fetched successfully
+2024-09-27 10:19:14 [main] INFO  com.example.TaskService - Added new task: testtask
+2024-09-27 10:19:17 [main] INFO  com.example.TaskService - All tasks fetched successfully
+2024-09-27 10:19:23 [main] INFO  com.example.TaskService - Deleted task with id: 1
+2024-09-27 10:19:26 [main] INFO  com.example.TaskService - All tasks fetched successfully
